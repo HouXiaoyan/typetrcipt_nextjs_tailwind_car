@@ -7,6 +7,10 @@ export default function SearchBar() {
   const [manufacturer, setManufacturer] = useState("");
 
   const handelSearch = () => {};
+
+  const SearchButton =()=>{
+    
+  }
   return (
     <form className="searchbar" onSubmit={handelSearch}>
       <div className="searchbar__item">
